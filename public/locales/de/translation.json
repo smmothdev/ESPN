@@ -1,320 +1,73 @@
 {
-    "faq": {
-        "title": "Häufig gestellte Fragen",
-        "description": "Wir sind hier, um alle Ihre Fragen zu beantworten.",
-        "items": [
-            {
-                "question": "Warum sollten Sie sich für SmoothFlowTech als IT-Software-Dienstleister entscheiden?",
-                "answer": "SmoothFlowTech zeichnet sich als vertrauenswürdiger IT-Softwaredienstleister durch seine nachweisliche Erfolgsbilanz bei der Bereitstellung hochwertiger, innovativer und skalierbarer Softwarelösungen aus, die auf Ihre Geschäftsanforderungen zugeschnitten sind. Mit einem kundenorientierten Ansatz, agilen Methoden und einem Team erfahrener Entwickler gewährleisten wir eine pünktliche Lieferung, robuste Sicherheit und außergewöhnlichen Support nach der Lieferung."
-            },
-            {
-                "question": "Welche unterschiedlichen Anstellungsmodelle bieten Sie an?",
-                "answer": "Wir bieten flexible Einstellungsmodelle, um den unterschiedlichen Geschäftsanforderungen gerecht zu werden, darunter:\n1. **Dediziertes Teammodell**: Ein dediziertes Team arbeitet ausschließlich an Ihrem Projekt, ideal für eine langfristige Zusammenarbeit.\n2. **Zeit- und Materialmodell**: Bezahlung für die tatsächlich geleisteten Arbeitsstunden, geeignet für Projekte mit sich entwickelnden Anforderungen.\n3. **Festpreismodell**: Vorab vereinbarte Kosten für Projekte mit genau definiertem Umfang und Zeitrahmen.\n4. **Hybridmodell**: Eine Kombination der oben genannten Modelle für maximale Flexibilität und Kosteneffizienz."
-            },
-            {
-                "question": "Wie gewährleisten Sie die Sicherheit unserer Daten?",
-                "answer": "Datensicherheit hat höchste Priorität. Wir legen größten Wert auf die Sicherheit Ihrer Informationen, indem wir branchenführende Sicherheitsmaßnahmen implementieren. Darüber hinaus unterliegen alle Teammitglieder strengen Vertraulichkeitsvereinbarungen, um sicherzustellen, dass Ihre Privatsphäre stets geschützt ist."
-            }
-        ]
-    },
     "header": {
-        "title": "SmoothFlowTech",
-        "description": {
-            "1st": "Wir sind spezialisiert auf die Bereitstellung von erstklassigen digitalen",
-            "2nd": "Lösungen, die auf Ihre Bedürfnisse zugeschnitten sind"
-        },
-        "button": "Kostenlose Beratung erhalten",
-        "uniqueBusiness": "einzigartiges Geschäft",
-        "needs": "Bedürfnisse"
-    },
-    "technologies": {
-        "title": "Technologien",
-        "items": {
-            "1": {
-                "label": "Tools für die Zusammenarbeit",
-                "title": "Tools für die Zusammenarbeit",
-                "description": "Streamen Sie die Teamarbeit durch Echtzeitkommunikation und Projektmanagement, um Arbeitsabläufe zu verbessern, die Koordination zu steigern und Ergebnisse zu erzielen."
-            },
-            "2": {
-                "label": "Frontend",
-                "title": "Frontend",
-                "description": "Definieren Sie das Frontend Ihrer Website neu mit Tech-Stacks, die beim Aufbau reibungsloser Benutzeroberflächen für ein nahtloses Benutzererlebnis helfen."
-            },
-            "3": {
-                "label": "Backend",
-                "title": "Backend",
-                "description": "Wählen Sie die besten serverseitigen Technologie-Stacks, um die Leistung zu verbessern und außergewöhnliche Geschäftsfunktionen zu erstellen."
-            },
-            "4": {
-                "label": "Datenbank",
-                "title": "Datenbank",
-                "description": "Optimieren Sie Ihre Datenmigration, indem Sie eine Datenbank auswählen, die Ihnen ein Höchstmaß an Funktionalität und Komfort bietet."
-            },
-            "5": {
-                "label": "Mobile",
-                "title": "Mobile",
-                "description": "Stellen Sie Reaktionsfähigkeit und Designkonsistenz sicher, indem Sie aus unserem handverlesenen Angebot an mobilen Tools und Technologien wählen."
-            }
-        }
+        "title": "E.S.P.N. GmbH",
+        "description": "Die ESPN GmbH ist ein erfahrenes Personalleasing-Unternehmen mit breitem internationalen Hintergrund in der Personalvermittlung. Seit kurzem sind wir auch in Wien aktiv und bieten unsere Leistungen direkt vor Ort an. Unser Engagement und unsere Expertise ermöglichen es uns, gezielt auf die Bedürfnisse unserer Kunden einzugehen und qualifiziertes Personal passgenau zu vermitteln.",
+        "button": "Lass uns gehen"
     },
     "services": {
         "title": "Dienstleistungen",
         "description": "Wir konzipieren, implementieren und transformieren digitale Landschaften, damit Ihr Unternehmen modern, effizient und flexibel bleibt.",
         "items": [
             {
-                "name": "Software-Produktentwicklung",
-                "points": [
-                    "Website-Entwicklung",
-                    "Entwicklung mobiler Apps",
-                    "Kundenspezifische Softwareentwicklung",
-                    "Anwendungsmodernisierung",
-                    "E-Commerce-Entwicklung",
-                    "Blockchain-Entwicklung",
-                    "Entwicklung von Unternehmenssoftware",
-                    "API und Microservices",
-                    "Rettung von Softwareprojekten",
-                    "Prüfung und Qualitätssicherung"
-                ]
+                "name": "Verkäufe",
+                "description": "Geschultes Verkaufspersonal sorgt für eine optimale Kundenbetreuung und Umsatzsteigerung."
             },
             {
-                "name": "Digitales Erlebnis",
-                "points": [
-                    "Nutzerforschung",
-                    "Webdesign",
-                    "UI/UX-Design",
-                    "Prototyping"
-                ]
+                "name": "Sicherheit",
+                "description": "Geschultes Sicherheitspersonal zum Schutz und Wohl der Partner."
             },
             {
-                "name": "Daten und Analysen",
-                "points": [
-                    "Datentechnik",
-                    "KI und maschinelles Lernen",
-                    "Analyse und Visualisierung"
-                ]
+                "name": "Service",
+                "description": "Professionelles Servicepersonal zur Verbesserung des Kundenerlebnisses."
             },
             {
-                "name": "Cloud Engineering",
-                "points": [
-                    "Cloud-Migration",
-                    "DevOps",
-                    "Cybersicherheit",
-                    "Support und Wartung"
-                ]
+                "name": "Branchen",
+                "description": "Zuverlässige Support-Mitarbeiter, die flexibel, pünktlich und teamorientiert in den unterschiedlichsten Bereichen Unterstützung leisten."
             },
             {
-                "name": "IT Beratung",
-                "points": [
-                    "Aufstockung des IT-Personals",
-                    "Produktstrategie",
-                    "Produkt-Roadmap",
-                    "Business-Technologie"
-                ]
-            }
-        ]
-    },
-    "thougthfulProcess": {
-        "title": "Ein durchdachter Prozess",
-        "description": "Unsere Strategie ist Einfachheit. Ja, gehen Sie schlank vor und starten Sie schnell, aber überspringen Sie keine Schritte.",
-        "items": [
-            {
-                "icon": "/assets/images/processes/discover.svg",
-                "title": "Entdecken",
-                "description": "Zuerst hören wir zu und zerlegen Ihre Idee, um den Kern des Wertversprechens Ihrer App offenzulegen."
-            },
-            {
-                "icon": "/assets/images/processes/design.svg",
-                "title": "Design",
-                "description": "Wir entwickeln eine schlanke Go-to-Market-Produktstrategie, die das Benutzererlebnis optimal unterstützt."
-            },
-            {
-                "icon": "/assets/images/processes/develop.svg",
-                "title": "Entwickeln",
-                "description": "Unser internes, in den USA ansässiges Entwicklerteam arbeitet mit unserem Kreativteam zusammen, um präzise Codes zu erstellen."
-            },
-            {
-                "icon": "/assets/images/processes/deploy.svg",
-                "title": "Einsetzen",
-                "description": "Echte Künstler liefern. Wir arbeiten mit Ihnen zusammen, um Produkte auf den Markt zu bringen und zu iterieren und so die richtige Übereinstimmung zwischen Produkt und Markt zu finden."
+                "name": "Reinigung",
+                "description": "Zuverlässiges Reinigungspersonal sorgt für Sauberkeit und Hygiene am Arbeitsplatz"
             }
         ]
     },
     "contactUs": {
-        "title": "Kontaktieren Sie uns",
-        "form": {
-            "title": "Kontaktieren Sie uns",
-            "fullName": "Vollständiger Name",
-            "email": "E-Mail",
-            "phoneNumber": "Telefonnummer",
-            "company": "Unternehmen",
-            "lookingFor": "Wonach suchst du?",
-            "message": "Nachricht",
-            "characters": "Charaktere",
-            "submit": "Einreichen",
-            "validation": {
-                "fullName": {
-                    "required": "Vollständiger Name ist erforderlich"
-                },
-                "email": {
-                    "required": "E-Mail ist erforderlich",
-                    "invalid": "Ungültige E-Mail-Adresse"
-                },
-                "phoneNumber": {
-                    "required": "Telefonnummer ist erforderlich"
-                },
-                "message": {
-                    "required": "Nachricht ist erforderlich",
-                    "maxLength": "Die Nachricht darf nicht länger als 750 Zeichen sein."
-                },
-                "lookingFor": {
-                    "required": "Wählen Sie einen Service"
-                }
-            }
-        },
-        "text": {
-            "title": [
-                "Bringen wir Ihre",
-                "Vision zum Leben"
-            ],
-            "description": "Wir bieten unverbindliche Beratung und Machbarkeitsanalyse. Begeben Sie sich mit uns auf die Reise der digitalen Transformation"
-        },
+        "title": "Kontaktieren Sie uns"
+    },
+    "whyChoose": {
+        "title": "Warum E.S.P.N. wählen?",
         "points": [
             {
-                "title": "Software- und Anwendungsentwicklung",
-                "description": "30-tägiges risikofreies Pilotprogramm"
+                "title": "Erfahrung",
+                "description": "Langjährige, internationale Erfahrung in der Personalleasing- und -vermittlungsbranche.",
+                "icon": "/assets/images/why-us-points/experience.svg"
             },
             {
-                "title": "Website-Design und -Entwicklung",
-                "description": "UX/UI-Audit und Design-Ideenfindung auf unsere Kosten."
+                "title": "Flexibilität",
+                "description": "Langjährige, internationale Erfahrung in der Personalleasing- und -vermittlungsbranche.",
+                "icon": "/assets/images/why-us-points/flexibility.svg"
             },
             {
-                "title": "Engagierter Entwickler",
-                "subTitle": "(Skill-Match-Garantie)",
-                "description": "1 Woche Probezeit (20 Stunden)"
+                "title": "Qualität und Zuverlässigkeit",
+                "description": "Hohe Standards bei der Personalauswahl und -schulung.",
+                "icon": "/assets/images/why-us-points/quality.svg"
+            },
+            {
+                "title": "Kundenzufriedenheit",
+                "description": "Der Fokus liegt auf der Sicherstellung der Kundenzufriedenheit durch kompetente und engagierte Mitarbeiter.",
+                "icon": "/assets/images/why-us-points/satisfaction.svg"
             }
         ]
     },
-    "getToUs": "So erreichen Sie uns",
     "about": {
         "title": "Über uns",
-        "welcome": "Willkommen",
-        "description": [
-            "Bei Smooth Flow Tech sind wir spezialisiert auf die Umsetzung Ihrer Ideen in",
-            "nahtlose digitale Realitäten",
-            ". Gegründet von einem engagierten Full-Stack-Entwickler, hat unser Unternehmen seinen Hauptsitz in der pulsierenden Stadt",
-            "Wien",
-            ". Unser Engagement für Exzellenz und Innovation treibt uns an, erstklassige digitale Lösungen zu liefern, die auf Ihre Bedürfnisse zugeschnitten sind",
-            "Individuelle Bedürfnisse"
+        "description": "Das Unternehmen verfügt über umfassende Erfahrung im Bäckerei- und Einzelhandelssektor und bietet maßgeschneiderte Personallösungen für branchenspezifische Anforderungen. Die Zusammenarbeit mit Bäckereibetrieben hat dazu beigetragen, die Betriebseffizienz und die Kundenzufriedenheit ihrer Partner zu verbessern."
+    },
+    "getToUs": "So erreichen Sie uns",
+    "footer": {
+        "location": [
+            "Arakwastraße 6 / 2 / 13",
+            "1220 Wien, Österreich"
         ],
-        "mission": {
-            "title": "Unsere Mission",
-            "description": "Unsere Mission ist es, unsere Kunden zu stärken, indem wir ihre Ideen und Bedürfnisse durch umfassende digitale Entwicklung zum Leben erwecken. Wir konzentrieren uns auf die Erstellung effizienter, automatisierter und benutzerfreundlicher Websites, Software und mobiler Anwendungen, die Prozesse vereinfachen und das Benutzererlebnis verbessern. Unsere Leidenschaft für Automatisierung und intuitives Design stellt sicher, dass jede von uns gelieferte digitale Lösung reibungslos und nahtlos funktioniert und die Technologie für unsere Kunden zugänglich und angenehm macht."
-        },
-        "vision": {
-            "title": "Unsere Vision",
-            "description": "Wir möchten es einem breiten Kundenkreis ermöglichen, seine Träume von erfolgreichen E-Commerce-Plattformen, innovativen Websites, hochmodernen digitalen Diensten und robusten Softwarelösungen zu verwirklichen. Unsere Vision ist es, unsere Präsenz auf dem Markt kontinuierlich auszubauen und Smooth Flow Tech als führende Kraft in der Technologiebranche zu etablieren, indem wir außergewöhnliche, benutzerfreundliche und automatisierte digitale Produkte liefern, die den Erfolg und die Zufriedenheit unserer Kunden steigern."
-        },
-        "slogan": {
-            "title": "Unser Slogan",
-            "subTitle": "„Ideen in die digitale Realität umsetzen“",
-            "description": "Dieser Slogan verkörpert unser Engagement, kreative Ideen in funktionale und optisch ansprechende digitale Produkte umzusetzen und unterstreicht unsere Stärke in der Ideenentwicklung und im benutzerfreundlichen Design.",
-            "whyChoose": "Warum Sie sich für Smooth Flow Tech entscheiden sollten",
-            "items": [
-                {
-                    "title": "Sachverstand",
-                    "description": "Unter der Leitung eines erfahrenen Full-Stack-Entwicklers bringt unser Team eine Fülle an technischem Wissen und praktischer Erfahrung in jedes Projekt ein."
-                },
-                {
-                    "title": "Kundenzentrierter Ansatz",
-                    "description": "Wir legen großen Wert darauf, das Leben unserer Kunden durch Automatisierung und benutzerfreundliche Schnittstellen einfacher zu machen."
-                },
-                {
-                    "title": "Innovation",
-                    "description": "Wir bleiben den Branchentrends immer einen Schritt voraus und können Ihnen innovative Lösungen bieten, die Ihre Wettbewerbsfähigkeit sichern."
-                },
-                {
-                    "title": "Qualitätssicherung",
-                    "description": "Unsere strengen Test- und Qualitätssicherungsprozesse gewährleisten, dass jedes von uns gelieferte Produkt den höchsten Qualitätsstandards entspricht."
-                }
-            ]
-        },
-        "join": {
-            "title": "Begleiten Sie uns auf Ihrer digitalen Reise",
-            "description": "Egal, ob Sie eine einfache Website für Ihren Service oder eine komplexe, automatisierte Softwarelösung entwickeln möchten, Smooth Flow Tech hilft Ihnen, Ihre digitalen Träume effizient und stilvoll zu verwirklichen. Wir helfen Ihnen dabei, Ihre Ideen reibungslos in die Realität umzusetzen."
-        }
-    },
-    "privacy": {
-        "title": "Datenschutzrichtlinie",
-        "tableOfContents": {
-            "title": "Inhaltsverzeichnis",
-            "items": [
-                "Einführung",
-                "Verantwortlicher",
-                "Datenerhebung und Zweck der Verarbeitung",
-                "Weitergabe von Daten",
-                "Sicherheit",
-                "Ihre Rechte",
-                "Beschwerderecht",
-                "Änderungen der Datenschutzrichtlinie"
-            ]
-        },
-        "introduction": "Bei [Smooth Flow Tech] nehmen wir den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzrichtlinie erläutert, wie wir personenbezogene Daten verarbeiten, wenn Sie unsere Website (www.smoothflowtech.com) besuchen und nutzen. Wir verpflichten uns, Ihre Daten im Einklang mit den geltenden Datenschutzvorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO), zu schützen.",
-        "dataController": {
-            "title": "Verantwortlicher",
-            "items": [
-                "Smooth Flow-Technologie",
-                "[Adresse einfügen]",
-                "[E-Mail-Adresse einfügen]",
-                "[Telefonnummer einfügen]"
-            ]
-        },
-        "dataCollection": {
-            "title": "Datenerhebung und Zweck der Verarbeitung",
-            "items": [
-                {
-                    "title": "a) Kontaktformular",
-                    "description": "Daten: Name, E-Mail-Adresse, Telefonnummer und Nachricht. Zweck: Bearbeitung Ihrer Anfragen und Beantwortung Ihrer Nachrichten. Rechtsgrundlage: Artikel 6 Absatz 1 Buchstabe b) DSGVO (Erfüllung eines Vertrags oder vorvertragliche Maßnahmen). Speicherdauer: Wir speichern Ihre Daten bis zur vollständigen Bearbeitung Ihrer Anfrage sowie bis zu einem Kalenderjahr zur Bearbeitung von Anschlussfragen."
-                },
-                {
-                    "title": "b) Social Media Links",
-                    "description": "Auf unserer Website finden Sie Links zu unseren Social-Media-Profilen. Wenn Sie diese Links anklicken, werden Sie auf externe Plattformen weitergeleitet. Wir haben keinen Einfluss auf die Datenerfassung auf diesen Plattformen und empfehlen Ihnen, die jeweiligen Datenschutzbestimmungen der Anbieter zu prüfen."
-                },
-                {
-                    "title": "c) Hosting",
-                    "description": "Daten: IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp und -version, Betriebssystem. Zweck: Gewährleistung des Betriebs und der Sicherheit der Website."
-                },
-                {
-                    "title": "d) Datenverarbeitung für Dienste",
-                    "description": "Daten: Name, E-Mail-Adresse, Telefonnummer, projektspezifische Angaben. \nZweck: Erstellung und Erbringung vereinbarter Leistungen für Kunden.\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung)."
-                }
-            ]
-        },
-        "dataSharing": {
-            "title": "Weitergabe von Daten",
-            "description": "Eine Weitergabe Ihrer Daten erfolgt nur, sofern dies zur Vertragserfüllung (z.B. konkrete Projektanforderungen) erforderlich oder gesetzlich vorgeschrieben ist."
-        },
-        "security": {
-            "title": "Sicherheit",
-            "description": "Wir ergreifen technische und organisatorische Maßnahmen, um Ihre Daten vor Verlust, Missbrauch und unberechtigtem Zugriff zu schützen, darunter:\n\nHTTPS-Verschlüsselung für sichere Datenübertragung. Regelmäßige Sicherheitsupdates."
-        },
-        "yourRights": {
-            "title": "Ihre Rechte",
-            "description": "Sie haben folgende Rechte in Bezug auf Ihre personenbezogenen Daten:\n\nZugriff: Sie können eine Kopie der personenbezogenen Daten anfordern, die wir über Sie gespeichert haben.\n\nBerichtigung: Sie können die Korrektur unrichtiger Daten anfordern.\n\nLöschung: Sie können die Löschung Ihrer Daten anfordern, sofern gesetzliche Aufbewahrungspflichten dem nicht entgegenstehen.\n\nEinschränkung: Sie können die Einschränkung der Verarbeitung Ihrer Daten anfordern.\n\nWiderspruch: Sie können der Verarbeitung Ihrer Daten widersprechen.\n\nDatenübertragbarkeit: Sie können Ihre Daten in einem allgemein verwendeten, maschinenlesbaren Format anfordern. Um diese Rechte auszuüben, kontaktieren Sie uns bitte unter [E-Mail-Adresse einfügen]."
-        },
-        "complaint": {
-            "title": "Beschwerderecht",
-            "description": "Sie haben das Recht, bei einer Aufsichtsbehörde Beschwerde einzulegen. In Österreich ist dies:\n\nÖsterreichische Datenschutzbehörde\n\nBarichgasse 40-42 1030 Wien, Österreich\n\nhttps://www.dsb.gv.at"
-        },
-        "changesToPrivacyPolicy": {
-            "title": "Änderungen der Datenschutzrichtlinie",
-            "description": "Wir behalten uns das Recht vor, diese Datenschutzrichtlinie zu aktualisieren, wenn wir Änderungen an unserer Website vornehmen oder um gesetzlichen Anforderungen nachzukommen. Bitte überprüfen Sie diese Richtlinie regelmäßig."
-        }
-    },
-    "termsOfUse": {
-        "title": "Nutzungsbedingungen"
-    },
-    "termsAndConditions": {
-        "title": "Geschäftsbedingungen"
-    },
-    "backToHome": "Zurück zur Startseite"
+        "mail": "espngmbh@gmail.com"
+    }
 }

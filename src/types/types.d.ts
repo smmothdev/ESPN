@@ -15,7 +15,11 @@ export interface ILogo {
 
 export interface IService {
   name: string;
-  points: string[];
+  description: string;
+}
+
+export interface IServiceLineProps extends IService {
+  number: string;
 }
 
 export interface IFaq {
@@ -42,8 +46,8 @@ export interface IFooterList {
   }[];
 }
 
-export interface ISocialMedia{
+export interface IWhyUsPoint {
   icon: string;
-  link: string;
-  name: string;
+  title: string;
+  description: string;
 }

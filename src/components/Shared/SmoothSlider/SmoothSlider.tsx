@@ -49,7 +49,7 @@ const SmoothSlider: React.FC<ISmoothSliderProps> = ({
         backgroundSize: 'cover',
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>{' '}
+      <div className="absolute inset-0 bg-header-gradient opacity-80"></div>{' '}
       {/* Dark overlay for text readability */}
       <div
         className={`absolute inset-0 flex items-center justify-center text-white`}

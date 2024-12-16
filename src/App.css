@@ -1,0 +1,4 @@
+html * {
+  scroll-margin-top: 100px; /* Adjust based on your navbar's height */
+  scroll-behavior: smooth;
+}

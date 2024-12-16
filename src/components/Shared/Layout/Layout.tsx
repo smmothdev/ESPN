@@ -8,9 +8,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { t } = useTranslation();
 
   const navLinks: INavLink[] = [
-    { label: t('about.title'), path: `/about-us` },
-    { label: t('services.title'), path: `#services`, isDropdown: true },
-    { label: t('contactUs.title'), path: `#faq` },
+    { label: t('about.title'), path: `#about` },
+    { label: t('services.title'), path: `#services` },
+    { label: t('contactUs.title'), path: `#contact` },
   ];
 
   return (

@@ -1,344 +1,73 @@
 {
-    "faq": {
-        "title": "FAQ",
-        "description": "We're here to answer all your questions.",
-        "items": [
-            {
-                "question": "Why choose SmoothFlowTech as an IT software service provider?",
-                "answer": "SmoothFlowTech stands out as a trusted IT software service provider for its proven track record of delivering high-quality, innovative, and scalable software solutions tailored to meet your business needs. With a customer-centric approach, agile methodologies, and a team of experienced developers, we ensure timely delivery, robust security, and exceptional post-delivery support."
-            },
-            {
-                "question": "What different hiring models do you offer?",
-                "answer": "We offer flexible hiring models to cater to diverse business requirements, including:\n1. **Dedicated Team Model**: A dedicated team works exclusively on your project, ideal for long-term collaboration.\n2. **Time and Material Model**: Pay for the actual hours worked, suitable for projects with evolving requirements.\n3. **Fixed Price Model**: A pre-agreed cost for projects with well-defined scopes and timelines.\n4. **Hybrid Model**: A combination of the above models to offer maximum flexibility and cost-efficiency."
-            },
-            {
-                "question": "How do you ensure the security of our data?",
-                "answer": "Data security is a top priority. We prioritize the security of your information by implementing industry-leading security measures. Additionally, all team members are bound by strict confidentiality agreements to ensure your privacy is always protected."
-            }
-        ]
-    },
     "header": {
-        "title": "SmoothFlowTech",
-        "description": {
-            "1st": "We specialize in delivering top-tier digital",
-            "2nd": "solutions tailored to meet your"
-        },
-        "button": "Get Free Consultation",
-        "uniqueBusiness": "unique business",
-        "needs": "needs"
-    },
-    "technologies": {
-        "title": "Technologies",
-        "items": {
-            "1": {
-                "label": "Collaboration Tools",
-                "title": "Collaboration Tools",
-                "description": "Streaming teamwork through real-time communication and project management to improve workflows, enhance coordination, and drive results"
-            },
-            "2": {
-                "label": "Front-End",
-                "title": "Front-End",
-                "description": "Redefine your website front end with tech stacks that help build smooth user interfaces for seamless user experiences."
-            },
-            "3": {
-                "label": "Back-End",
-                "title": "Back-End",
-                "description": "Choose the best server-facing tech stacks to improve performance and create exceptional business functionalities."
-            },
-            "4": {
-                "label": "Database",
-                "title": "Database",
-                "description": "Rationalize your data migration by selecting a database that offers you the most in functionality and convenience."
-            },
-            "5": {
-                "label": "Mobile",
-                "title": "Mobile",
-                "description": "Ensure the responsiveness and design consistency by choosing from the hand-picked selection of mobile tools and technologies we offer."
-            }
-        }
+        "title": "E.S.P.N. GmbH",
+        "description": "ESPN  GmbH  is  an  experienced  personnel  leasing  company  with  a  broad  international   background  in  personnel  placement.  We  have  recently  also  been  operating  in  Vienna  and   offer  our  services  directly  on  site.  Our  commitment  and  expertise  enable  us  to  respond  specifically   to  the  needs  of  our  customers  and  to  place  qualified  personnel  precisely  in  line  with  their  needs.",
+        "button": "Let’s Go"
     },
     "services": {
         "title": "Services",
         "description": "We ideate, implement, and transform digital landscapes to help your business stay modern, efficient, and agile.",
         "items": [
             {
-                "name": "Software Product Engineering",
-                "points": [
-                    "Website Development",
-                    "Mobile App Development",
-                    "Custom Software Development",
-                    "Application Modernization",
-                    "E-commerce Development",
-                    "Blockchain Development",
-                    "Enterprise Software Development",
-                    "API & Microservices",
-                    "Software Project Rescue",
-                    "Testing & Quality Assurance"
-                ]
+                "name": "Sales",
+                "description": "Trained sales personnel to ensure optimal customer support and increase revenue."
             },
             {
-                "name": "Digital Experience",
-                "points": [
-                    "User Research",
-                    "Web Design",
-                    "UI/UX Design",
-                    "Prototyping"
-                ]
+                "name": "Security",
+                "description": "Trained security staff for the protection and well-being of partners."
             },
             {
-                "name": "Data & Analytics",
-                "points": [
-                    "Data Engineering",
-                    "AI & Machine Learning",
-                    "Analytics & Visualization"
-                ]
+                "name": "Service",
+                "description": "Professional service staff to enhance the customer experience."
             },
             {
-                "name": "Cloud Engineering",
-                "points": [
-                    "Cloud Migration",
-                    "DevOps",
-                    "Cybersecurity",
-                    "Support & Maintenance"
-                ]
+                "name": "Industries",
+                "description": "Reliable support staff who are flexible, punctual, and team-oriented to provide assistance in various areas."
             },
             {
-                "name": "IT Consulting",
-                "points": [
-                    "IT Staff Augmentation",
-                    "Product Strategy",
-                    "Product Roadmap",
-                    "Business Technology"
-                ]
-            }
-        ]
-    },
-    "thougthfulProcess": {
-        "title": "A thougthful Process",
-        "description": "Our strategy is simplicity. Yes, go lean and launch fast, but don’t skip steps.",
-        "items": [
-            {
-                "icon": "/assets/images/processes/discover.svg",
-                "title": "Discover",
-                "description": "First we listen and 'strip down' your idea to reveal the core of your app's value proposition."
-            },
-            {
-                "icon": "/assets/images/processes/design.svg",
-                "title": "Design",
-                "description": "We create a lean go-to-market product strategy that best supports the user's experience."
-            },
-            {
-                "icon": "/assets/images/processes/develop.svg",
-                "title": "Develop",
-                "description": "Our in-house, US-based dev team works with our creative team to code with precision."
-            },
-            {
-                "icon": "/assets/images/processes/deploy.svg",
-                "title": "Deploy",
-                "description": "Real artists ship. We partner with you to launch and iterate to find true product-market fit."
+                "name": "Cleaning",
+                "description": "Reliable cleaning staff to ensure cleanliness and hygiene in the workplace"
             }
         ]
     },
     "contactUs": {
-        "title": "Contact Us",
-        "form": {
-            "title": "Contact Us",
-            "fullName": "Full Name",
-            "email": "Email",
-            "phoneNumber": "Phone Number",
-            "company": "Company",
-            "lookingFor": "What are you looking for?",
-            "message": "Message",
-            "characters": "characters",
-            "submit": "Submit",
-            "validation": {
-                "fullName": {
-                    "required": "Full Name is required"
-                },
-                "email": {
-                    "required": "Email is required",
-                    "invalid": "Invalid email address"
-                },
-                "phoneNumber": {
-                    "required": "Phone Number is required"
-                },
-                "message": {
-                    "required": "Message is required",
-                    "maxLength": "Message cannot exceed 750 characters"
-                },
-                "lookingFor": {
-                    "required": "Choose a service"
-                }
-            }
-        },
-        "text": {
-            "title": [
-                "Let’s Bring Your",
-                "Vision to Life"
-            ],
-            "description": "We offer no obligation consultation and feasibility analysis. Embark on a journey of digital transformation with us"
-        },
+        "title": "Contact Us"
+    },
+    "whyChoose": {
+        "title": "Why Choose E.S.P.N. ?",
         "points": [
             {
-                "title": "Software & Application Development",
-                "description": "30-Day Risk-Free Pilot Program"
+                "title": "Experience",
+                "description": "Years of international experience in the personnel leasing and placement industry.",
+                "icon": "/assets/images/why-us-points/experience.svg"
             },
             {
-                "title": "Website Design & Development",
-                "description": "UX/UI Audit & Design Ideation on us."
+                "title": "Flexibility",
+                "description": "Years of international experience in the personnel leasing and placement industry.",
+                "icon": "/assets/images/why-us-points/flexibility.svg"
             },
             {
-                "title": "Dedicated Developer",
-                "subTitle": "(Skill match Guarantee)",
-                "description": "1 week trial (20 hours)"
+                "title": "Quality & Reliability",
+                "description": "High standards in staff selection and training.",
+                "icon": "/assets/images/why-us-points/quality.svg"
+            },
+            {
+                "title": "Customer Satisfaction",
+                "description": "A focus on ensuring customer satisfaction through competent and dedicated employees.",
+                "icon": "/assets/images/why-us-points/satisfaction.svg"
             }
         ]
     },
-    "getToUs": "Get To Us",
     "about": {
         "title": "About Us",
-        "welcome": "Welcome",
-        "description": [
-            "At Smooth Flow Tech, we specialize in transforming your ideas into ",
-            "seamless digital realities",
-            ". Founded by a dedicated full-stack developer, our company is headquartered in the vibrant city of ",
-            "Vienna",
-            ". Our commitment to excellence and innovation drives us to deliver top-tier digital solutions tailored to meet your ",
-            "unique needs"
+        "description": " The company has strong experience in the bakery and retail sectors, offering tailored personnel solutions to meet industry-specific demands. The collaboration with bakery businesses has helped improve operational efficiency and customer satisfaction for their partners."
+    },
+    "getToUs": "Get To Us",
+    "footer": {
+        "location": [
+            "Arakwastraße 6 / 2 / 13",
+            "1220 Vienna, Austria"
         ],
-        "mission": {
-            "title": "Our Mission",
-            "description": "Our mission is to empower our customers by bringing their ideas and needs to life through comprehensive digital development. We focus on creating efficient, automated, and user-friendly websites, software, and mobile applications that simplify processes and elevate user experiences. Our passion for automation and intuitive design ensures that every digital solution we deliver flows smoothly and seamlessly, making technology accessible and enjoyable for our clients."
-        },
-        "vision": {
-            "title": "Our Vision",
-            "description": "We aspire to empower a diverse range of customers to realize their dreams of successful e-commerce platforms, innovative websites, cutting-edge digital services, and robust software solutions. Our vision is to continuously expand our presence in the market, establishing Smooth Flow Tech as a leading force in the technology industry by delivering exceptional, user-friendly, and automated digital products that drive our clients' success and satisfaction."
-        },
-        "slogan": {
-            "title": "Our Slogan",
-            "subTitle": "\"Flowing Ideas into Digital Reality\"",
-            "description": "This slogan embodies our commitment to transforming creative ideas into functional and visually appealing digital products, highlighting our strength in idea development and user-friendly design.",
-            "whyChoose": "Why Choose Smooth Flow Tech",
-            "items": [
-                {
-                    "title": "Expertise",
-                    "description": "Led by a skilled full-stack developer, our team brings a wealth of technical knowledge and hands-on experience to every project."
-                },
-                {
-                    "title": "Customer-Centric Approach",
-                    "description": "We prioritize making our customers' lives easier through automation and user-friendly interfaces."
-                },
-                {
-                    "title": "Innovation",
-                    "description": "We stay ahead of industry trends to provide cutting-edge solutions that keep you competitive."
-                },
-                {
-                    "title": "Quality Assurance",
-                    "description": "Our rigorous testing and quality assurance processes ensure that every product we deliver meets the highest standards of excellence."
-                }
-            ]
-        },
-        "join": {
-            "title": "Join Us on Your Digital Journey",
-            "description": "Whether you're looking to develop a simple website for your service or a complex, automated software solution, Smooth Flow Tech is here to help you achieve your digital dreams with efficiency and style. Let us help you turn your ideas into reality with a smooth flow."
-        }
-    },
-    "privacy": {
-        "title": "Privacy Policy",
-        "tableOfContents": {
-            "title": "Table of Contents",
-            "items": [
-                {
-                    "title": "Introduction",
-                    "path": "#introduction"
-                },
-                {
-                    "title": "Data Controller",
-                    "path": "#dataController"
-                },
-                {
-                    "title": "Data Collection and Purpose of Processing",
-                    "path": "#dataCollection"
-                },
-                {
-                    "title": "Data Sharing",
-                    "path": "#dataSharing"
-                },
-                {
-                    "title": "Security",
-                    "path": "#security"
-                },
-                {
-                    "title": "Your Rights",
-                    "path": "#yourRights"
-                },
-                {
-                    "title": "Right to Lodge a Complaint",
-                    "path": "#complaint"
-                },
-                {
-                    "title": "Changes to the Privacy Policy",
-                    "path": "#changesToPrivacyPolicy"
-                }
-            ]
-        },
-        "introduction": "At [Smooth Flow Tech], we take the protection of your personal data very seriously. This privacy policy explains how we process personal data when you visit and use our website (www.smoothflowtech.com). We are committed to protecting your data in compliance with the applicable data protection regulations, especially the General Data Protection Regulation (GDPR).",
-        "dataController": {
-            "title": "Data Controller",
-            "items": [
-                "Smooth Flow Tech",
-                "[Insert address]",
-                "[Insert email address]",
-                "[Insert phone number]"
-            ]
-        },
-        "dataCollection": {
-            "title": "Data Collection and Purpose of Processing",
-            "items": [
-                {
-                    "title": "a) Contact Form",
-                    "description": "Data: Name, email address, phone number, and message. Purpose: To process your inquiries and respond to your messages. Legal Basis: Article 6(1)(b) GDPR (performance of a contract or pre-contractual measures). Retention Period: We store your data until your inquiry is fully processed and for up to one calendar year to handle follow-up questions."
-                },
-                {
-                    "title": "b) Social Media Links",
-                    "description": "Our website contains links to our social media profiles. Clicking these links redirects you to external platforms. We have no control over data collection on these platforms and recommend reviewing the respective privacy policies of the providers."
-                },
-                {
-                    "title": "c) Hosting",
-                    "description": "Data: IP address, date and time of access, browser type and version, operating system. Purpose: To ensure the operation and security of the website."
-                },
-                {
-                    "title": "d) Data Processing for Services",
-                    "description": "Data: Name, email address, phone number, project- specific details. \nPurpose: To create and deliver agreed-upon services for clients.\nLegal Basis: Article 6(1)(b) GDPR (performance of a contract)."
-                }
-            ]
-        },
-        "dataSharing": {
-            "title": "Data Sharing",
-            "description": "Data will only be shared if necessary for contract performance (e.g., specific project requirements) or if required by law."
-        },
-        "security": {
-            "title": "Security",
-            "description": "We implement technical and organizational measures to protect your data against loss, misuse, and unauthorized access, including:\n\nHTTPS encryption for secure data transmission. Regular security updates."
-        },
-        "yourRights": {
-            "title": "Your Rights",
-            "description": "You have the following rights regarding your personal data:\n\nAccess: You can request a copy of the personal data we have stored about you.\n\nRectification: You can request corrections to inaccurate data.\n\nErasure: You can request deletion of your data unless legal retention obligations prevent this.\n\nRestriction: You can request restrictions on processing your data.\n\nObjection: You can object to the processing of your data.\n\nData Portability: You can request your data in a commonly used, machine-readable format. To exercise these rights, please contact us at [Insert email address]."
-        },
-        "complaint": {
-            "title": "Right to Lodge a Complaint",
-            "description": "You have the right to lodge a complaint with a supervisory authority. In Austria, this is:\n\nAustrian Data Protection Authority\n\nBarichgasse 40-42 1030 Vienna, Austria\n\nhttps: //www.dsb.gv.at"
-        },
-        "changesToPrivacyPolicy": {
-            "title": "Changes to the Privacy Policy",
-            "description": "We reserve the right to update this privacy policy if we make changes to our website or to comply with legal requirements. Please review this policy regularly."
-        }
-    },
-    "termsOfUse": {
-        "title": "Terms of use"
-    },
-    "termsAndConditions": {
-        "title": "Terms and conditions"
-    },
-    "backToHome": "Back to Home"
+        "mail": "espngmbh@gmail.com"
+    }
 }

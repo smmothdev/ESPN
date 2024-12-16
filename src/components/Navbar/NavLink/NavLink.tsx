@@ -24,15 +24,15 @@ const NavLink: React.FC<NavLinkProps> = ({
   const { i18n } = useTranslation();
 
   const baseClasses =
-    'font-albert font text-[16px] sm:text-[24px] font-medium text-center px-4 py-2 transition-all duration-300 ease-in-out transform bg-white text-transparent bg-clip-text';
-  const hoverClasses =
-    'hover:bg-gradient-to-r hover:from-[#E674F5] hover:via-[#6ED5E0] hover:to-[#6ED5E0] hover:text-transparent hover:bg-clip-text';
-  const activeClasses =
-    'bg-gradient-to-r from-[#E674F5] via-[#6ED5E0] to-[#6ED5E0] text-transparent bg-clip-text';
-  const inactiveClasses = 'text-white bg-transparent';
+    'font-albert font text-[16px] sm:text-[24px] font-medium text-center px-4 py-2 transition-all duration-300 ease-in-out transform ';
+  // const hoverClasses =
+  //   'hover:bg-gradient-to-r hover:from-[#E674F5] hover:via-[#6ED5E0] hover:to-[#6ED5E0] hover:text-transparent hover:bg-clip-text';
+  // const activeClasses =
+  //   'bg-gradient-to-r from-[#E674F5] via-[#6ED5E0] to-[#6ED5E0] text-transparent bg-clip-text';
+  // const inactiveClasses = 'text-white bg-transparent';
 
   const computedClasses = `${baseClasses} ${
-    isActive ? activeClasses : inactiveClasses
+    isActive ? 'text-[#FA9C01]' : 'text-white'
   } ${className}`.trim();
 
   const handleElementClick = (event: React.MouseEvent<HTMLAnchorElement>) => {

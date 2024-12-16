@@ -9,13 +9,13 @@ export interface IMainButtonProps
 
 const MainButton: React.FC<IMainButtonProps> = ({
   label,
-  className = 'rounded-[28px] text-black px-[32px] py-[16px] font-albert text-[24px] leading-[24px] font-medium',
+  className = 'rounded-[28px] text-black px-[58px] py-[16px] font-albert text-[24px] leading-[24px] font-medium',
   type = 'button',
   ...props // The spread operator captures all remaining props like `onClick`, etc.
 }) => {
   return (
     <button
-      className={`${className} bg-gradient-to-r from-[#E674F5] via-[#6ED5E0] to-[#6ED5E0] md:px-6 md:py-3 md:text-[18px]`}
+      className={`${className} bg-[#FA9C01] `}
       type={type}
       {...props} // Spread the props to the button element
     >
