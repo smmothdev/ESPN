@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         <div
           dir={isArabic ? 'rtl' : 'ltr'}
           id="home"
-          className="max-w-6xl w-screen mx-auto"
+          className="max-w-6xl w-screen mx-auto px-3 md:px-0"
         >
           <HeaderText />
           <MainButton

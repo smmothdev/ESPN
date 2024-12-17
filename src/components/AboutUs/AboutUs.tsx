@@ -27,7 +27,7 @@ const AboutUs: React.FC = () => {
             <img src="/assets/images/quote.svg" />
             <img src="/assets/images/quote.svg" />
           </div>
-          <p className="text-[32px] leading-[37px] font-semibold font-albert text-[#F5F5F5] text-center">
+          <p className="text-[20px] leading-[30px] md:text-[32px] md:leading-[37px] font-semibold font-albert text-[#F5F5F5] text-center">
             {t('about.description')}
           </p>
         </div>

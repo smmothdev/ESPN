@@ -7,7 +7,6 @@ const Points: React.FC = () => {
   const { t, i18n } = useTranslation();
   const [whyUsPoints, whyUsPetPoints] = useState<IWhyUsPoint[]>([]);
   const [loading, setLoading] = useState(true); // Track loading state
-  const iconDir = '/assets/images/why-us-points/';
 
   useEffect(() => {
     if (i18n.isInitialized) {
@@ -28,7 +27,7 @@ const Points: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-row gap-6">
+    <div className="flex flex-col md:flex-row gap-4 md:gap-6 mt-20 mb-10">
       {whyUsPoints.map((point) => (
         <WhyUsPoint key={point.title} {...point} />
       ))}

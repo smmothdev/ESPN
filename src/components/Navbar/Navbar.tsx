@@ -15,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ navLinks }) => {
   const [currentPath, setCurrentPath] = useState<string>(window.location.hash);
   const [isDrawerVisible, setIsDrawerVisible] = useState(false);
 
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const isArabic = i18n.language === 'ar';
 
   const isAboutOrPrivacyPage =
@@ -113,7 +113,7 @@ const Navbar: React.FC<NavbarProps> = ({ navLinks }) => {
 
           {/* Burger menu icon */}
           <Button
-            className="lg:hidden block"
+            className="lg:hidden block mx-2"
             icon={<MenuOutlined style={{ color: 'white' }} />}
             onClick={toggleDrawer}
             style={{ border: 'none', background: 'none' }}
@@ -164,8 +164,8 @@ const Navbar: React.FC<NavbarProps> = ({ navLinks }) => {
         onClose={toggleDrawer}
         width={250}
         styles={{
-          header: { backgroundColor: '#000', color: '#fff' },
-          body: { backgroundColor: '#000', color: '#fff' },
+          header: { backgroundColor: '#333333', color: '#fff' },
+          body: { backgroundColor: '#333333', color: '#fff' },
         }}
         closeIcon={<CloseOutlined style={{ color: 'white' }} />}
       >
@@ -204,7 +204,7 @@ const Navbar: React.FC<NavbarProps> = ({ navLinks }) => {
               </div>
             ))}
           <hr className="border-gray-600" />
-          <div className="flex flex-col justify-center mt-4 gap-4">
+          <div className="flex flex-col justify-center mt-4 gap-4 ">
             <div className="mx-auto">
               <LanguageSwitcher />
             </div>

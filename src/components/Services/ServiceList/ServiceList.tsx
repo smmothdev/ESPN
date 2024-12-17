@@ -26,7 +26,7 @@ const ServiceList: React.FC = () => {
     return <p>There are no services available.</p>;
   }
   return (
-    <div className="flex flex-col gap-14 mt-16">
+    <div className="flex flex-col gap-14 mt-16 px-4">
       {serviceList.map((service, index) => (
         <ServiceLine
           key={service.name}

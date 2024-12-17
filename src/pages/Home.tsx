@@ -11,6 +11,7 @@ const Home: React.FC = () => {
       <Services />
       <AboutUs />
       <WhyUs/>
+      
     </div>
   );
 };

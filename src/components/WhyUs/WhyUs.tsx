@@ -16,10 +16,10 @@ const WhyUs: React.FC = () => {
         className="w-full max-w-6xl mx-auto mt-20"
       >
         <p
-          className={`relative text-[#333333] text-[48px] tracking-wide leading-[48px] font-albert font-semibold  after:h-[7px] after:rounded-[24px] after:bg-[#FA9C01] after:bg-opacity-[85%] after:absolute after:bottom-[-16px]  text-center ${
+          className={`relative text-[#333333] text-[30px] md:text-[48px] tracking-wide leading-[35px] md:leading-[48px] font-albert font-semibold  after:h-[7px] after:rounded-[24px] after:bg-[#FA9C01] after:bg-opacity-[85%] after:absolute after:bottom-[-16px]  text-center ${
             isAr
-              ? 'after:right-[35.5%] after:w-[300px]'
-              : 'after:left-[26.5%] after:w-[400px]'
+              ? 'after:right-[25%] md:after:right-[35.5%] after:w-1/2 md:after:w-[300px]'
+              : 'after:left-[25%] md:after:left-[26.5%] after:w-1/2 md:after:w-[400px]'
           }`}
         >
           {t('whyChoose.title')}
